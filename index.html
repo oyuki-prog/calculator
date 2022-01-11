@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="result">0</div>
+        <div class="row">
+            <button id="7" onclick="display(7)">7</button>
+            <button id="8" onclick="display(8)">8</button>
+            <button id="9" onclick="display(9)">9</button>
+            <button id="plus" onclick="calc('plus')">+</button>
+        </div>
+        <div class="row">
+            <button id="4" onclick="display(4)">4</button>
+            <button id="5" onclick="display(5)">5</button>
+            <button id="6" onclick="display(6)">6</button>
+            <button id="minus" onclick="calc('minus')">-</button>
+        </div>
+        <div class="row">
+            <button id="1" onclick="display(1)">1</button>
+            <button id="2" onclick="display(2)">2</button>
+            <button id="3" onclick="display(3)">3</button>
+            <button id="multi" onclick="calc('multi')">*</button>
+        </div>
+        <div class="row">
+            <button id="0" onclick="display(0)">0</button>
+            <button id="00" onclick="display('00')">00</button>
+            <button id="period" onclick="period()">.</button>
+            <button id="devide" onclick="calc('divide')">/</button>
+        </div>
+        <div class="row">
+            <button id="AC" class="half" onclick="allClear()">AC</button>
+            <button id="equal" class="half" onclick="equal()">=</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#result {
+    background: #000;
+    color: #fff;
+    font-size: 24px;
+    text-align: right;
+    padding: 8px;
+}
+
+.row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 24%;
+    height: 30px;
+}
+
+.half {
+    width: 49%;
+}
